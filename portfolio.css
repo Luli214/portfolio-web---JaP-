@@ -1,0 +1,60 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#presentacion {
+    text-align: center;
+
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+.mi-elemento {
+    background-image: url("2.jpg");
+    /* Otras propiedades de estilo */
+    
+    background-size: cover;
+    background-repeat: no-repeat; /* Para que la imagen no se repita */
+    background-position: center;
+  }
+
+
+  .tabla-horizontal {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+
+  }
+  div {
+    /*margin-bottom: 10px; /* Agregar espacio vertical entre los div */
+
+  }
+  .tabla-vertical {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+
+  }
+ 
+  #perfilesSociales {
+    text-align: center;
+    padding-bottom: 5%;
+  }
+
+  #habilidades{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
